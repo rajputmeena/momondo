@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>momondo - Make Your Travelling Easy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header Section Start -->
+  <header>
+    <ul>
+      <li><a href="index.html">
+          <img src="./assets/img/logo.png" alt="logo" width="100px" height="30px">
+        </a></li>
+      <li><a href="javascript:void()" class="active">Flights</a></li>
+      <li><a href="javascript:void()">Hotel</a></li>
+      <li><a href="javascript:void()">Car Hire</a></li>
+      <li><a href="javascript:void()">Trip Finder</a></li>
+      <li><a href="javascript:void()">Inspirations</a></li>
+    </ul>
+    <ul>
+      <li>
+        <a href="javascript:void()">
+          <img src="./assets/img/flage.jpg" alt="us-flag" width="15px" height="10px"> English(GBP)
+        </a>
+      </li>
+      <li><a href="javascript:void()">Log in</a></li>
+    </ul>
+  </header>
+  <!-- /Header Section End -->
+
+  <!-- banner section start  -->
+  <section class="banner">
+    <h1>"The best place to find <br> the cheapest airfares"</h1>
+    <h2>
+      -every single time
+    </h2>
+    <form action="">
+      <div>
+        <div class="searchButton">
+          <button type="button" class="active">
+            <i class="fa-solid fa-plane-departure"></i> Flights
+          </button>
+          <button type="button">
+            <i class="fa-solid fa-hotel"></i> Hotels
+          </button>
+          <button type="button">
+            <i class="fa-solid fa-car"></i> cars
+          </button>
+        </div>
+        <div class="searchForm">
+          <label for="origin city">origin City</label>
+          <input type="text" name="origin-city" id="origin-city" placeholder="Enter Origin City">
+
+          <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: aqua; margin-right: 0px 1px;"></i></span>
+
+          <label for="Destination city">Destination City</label>
+          <input type="text" name="Destination-City" id="Destination-city" placeholder="Enter Desatination City">
+
+          <label for="Travel Start Date">Start Date</label>
+          <input type="date" name="Start Date" id="Start Date" placeholder="Enter Travelling start Date">
+
+          <label for="Travel End Date">End Date</label>
+          <input type="date" name="End Date" id="End Date" placeholder="Enter Travelling End Date">
+
+          <label for="Select-Passengers">Select-Passengers</label>
+          <select name="select passengers" id="select passengers">
+            <option selected>Select Passengers</option>
+            <option value="1 pass">1 passengers</option>
+            <option value="2 pass">2 passengers</option>
+            <option value="3 pass">3 passengers</option>
+            <option value="4 pass">4 passengers</option>
+            <option value="5 pass">5 passengers</option>
+          </select>
+
+          <div class="info">
+            <i class="fa-solid fa-suitcase-rolling"></i>&nbsp;
+            Trip Type:
+            <select name="trip type" id="trip type">
+              <option selected>Select</option>
+              <option value="return">Return Trip</option>
+              <option value="Destination">Destination</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-money-bill-wave"></i>&nbsp;
+            Tickit Class:
+            <select name="tickit class" id="tickit class">
+              <option selected>Select</option>
+              <option value="economy">Economy</option>
+              <option value="Business">Business</option>
+              <option value="First">First Class</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" style="height:10px;width:10px;">
+            Direct Flights Only
+            <input type="checkbox" style="height: 10px; width: 10px; margin-left: 10px;">
+            Include Nearby Airports
+          </div>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="smt">Search</button>
+      </div>
+    </form>
+  </section>
+  <!-- /banner section end  -->
+
+  <!-- fun section start  -->
+  <section class="fun">
+    <h2>SOME FUN WE COVER</h2>
+    <ul>
+      <li><i class="fa-solid fa-person-biking"></i>
+        <h5 style="font-size: small;">5070M</h5>
+        <h6 style="font-size: small;">CYLING TRACK</h6>
+      </li>
+      <li><i class="fa-solid fa-route"></i>
+        <h5 style="font-size: small;">400M</h5>
+        <H6 style="font-size: small;">DISTANCE COVERD</H6>
+      </li>
+      <li><i class="fa-solid fa-person-walking"></i>
+        <h5 style="font-size: small;">5670M</h5>
+        <h6 style="font-size: small;">ALTITLDE</h6>
+      </li>
+      <li><i class="fa-solid fa-ship"></i>
+        <h5 style="font-size: small;">180KM</h5>
+        <h6 style="font-size: small;">SAIDING DISTANCE </h6>
+       </li>
+      <li><i class="fa-solid fa-cloud-sun"></i>
+        <h5 style="font-size: small;">570D</h5>
+        <h6 style="font-size: small;">SPENT ADVENTURE</h6>
+      </li>
+      <li><i class="fa-solid fa-dove"></i>
+        <h5 style="font-size: small;">5670M</h5>
+        <h6 style="font-size: small;">JUGLE DISTANCE</h6>
+      </li>
+    </ul>
+  </section>
+  <!--/ fun section end  -->
+
+  <!-- newslatter section start  -->
+  <section class="newsLatter">
+    <div class="right-item">
+      <h2 style="color: #272523;">SUSCRIBE FOR OUR TRAVEL NEWSLATTERS</h2>
+      <P style="color: #3d3d37;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ullam veritatis
+        corrupti alias, recusandae eos maxime quo sed? Modi error ut sunt distinctio id molestias.
+      </P>
+      <form action="">
+        <label for="newemail" style="display:none; color: #c7f184;">Email</label>
+        <input type="email" name="newsemail" id="newemail" placeholder="Enter your email address...">
+        <button type="button" style="background-color: #d6f1a9;">SEARCH</button>
+      </form>
+    </div>
+
+  </section>
+  <!-- /newslatter section end  -->
+
+  <!-- destination section start  -->
+  <section class="destination">
+    <h2>PAPULAR DESTINATION</h2>
+    <ul>
+      <li>
+        <img src="./assets/img/rome.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+      <li>
+        <img src="./assets/img/kbo.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+      <li>
+        <img src="./assets/img/jermany.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+      <li>
+        <img src="./assets/img/aust.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+      <li><img src="./assets/img/jermany.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+      <li>
+        <img src="./assets/img/multicity.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+      <li>
+        <img src="./assets/img/siven.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+      <li>
+        <img src="./assets/img/eat.jpg" alt="">
+        <div>
+          <h3><span>$999</span> Lorem ipsum dolor sit amet conse sciunt<span> aassa</span> </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perspiciatis
+            itaque architecto facere consequatur assumenda, at,
+            sunt nulla porro provident vero mollitia sed maiores eligendi?</p>
+        </div>
+      </li>
+    </ul>
+    <section>
+      <!-- /destination section end  -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+      <script src="./assests/js/script.js"></script>
+</body>
+
+</html>
